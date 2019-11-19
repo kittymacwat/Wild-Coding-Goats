@@ -45,8 +45,9 @@ h2 {
 }
 
 .text {
+  flex: 25%;
   background-color: #4CAF50;
   color: white;
-  font-size: 16px;
+  font-size: 1vw;
   padding: 16px 32px;
 }
