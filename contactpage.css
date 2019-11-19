@@ -1,0 +1,10 @@
+head, body {
+  font-family: helvetica;
+    text-align: center;
+}
+iframe {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 0px;
+}
