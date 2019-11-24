@@ -1,6 +1,6 @@
 body {
     color: rgb(255, 255, 255);
-    font-family: "Comic Sans MS";
+    font-family: "Amatic SC";
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     background-image: url(https://hopechurchcorby.org/wp-content/uploads/2017/08/sunset-and-wheat-field-wallpaper-hd-beautiful-desktop-background-hd-wallpapers-of-sunset-field-free-download.jpg);
     background-attachment: fixed;
@@ -15,17 +15,50 @@ h1, h2, h3 {
     text-align: center;
 }
 h1 {
-    font-size: 5em;
+    font-size: 7em;
 }
 h2 {
     font-size: 2.5em;
 }
 h3 {
-    font-size: 1em;
+    font-size: 2em;
 }
 img {
      display: flex;
      padding: 20px;
      margin: 0 auto;
      border-radius: 130px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 100%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
 }

@@ -1,6 +1,7 @@
 head, body {
-  font-family: "Comic Sans MS";
-    text-align: center;
+  font-family: "Amatic SC";
+  font-size: 1.75vw;
+  text-align: center;
 }
 iframe {
   display: flex;
@@ -53,7 +54,7 @@ iframe {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 25px;
 }
 .topnav a:hover {
   background-color: #ff3399;
