@@ -2,10 +2,14 @@
 <html>
 <head>
 <title>Are you a goat?</title>
+
 <style>
 body {
-background-color: pink;
-font-family: Helvetica;
+background-color: white;
+font-family: Georgia;
+color: Red
+
+
 }
 
 #main {
@@ -14,7 +18,7 @@ max-width: 950px;
 border: 1px gray solid;
 margin: auto;
 padding: 10px;
-background-color: white;
+background-color: pink;
 border-radius: 10px;
 }
 
@@ -25,7 +29,9 @@ padding: 5px;
 height: 250px;
 background: beige;
 background-image: url("code.jpg");
-color: white;
+color: #4CAF50;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+font-size:3vw;
 }
 
 label {
@@ -120,8 +126,8 @@ for(i=0; i<grading.length; i++) {
 
 document.getElementById("grade2").innerHTML = result2;
 
-return false; // required to not refresh the page; just leave this here
-} //this ends the submit function
+return false;
+}
 
 </script>
 
