@@ -4,6 +4,25 @@ body {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   margin: 0px;
 }
+.topnav {
+  background-color: #FFA500;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ff3399;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
 h1,h2 {
     text-align: center;
   }
@@ -13,7 +32,7 @@ h1 {
 }
 h2 {
   font-size:2vw;
-  color:#4CAF50;
+  color:#9933ff;
 }
 .column{
   float: left;
@@ -63,7 +82,7 @@ h2 {
 
 .text {
   flex: 25%;
-  background-color: #4CAF50;
+  background-color: #0099ff;
   color: white;
   font-size: 1vw;
   padding: 16px 32px;
