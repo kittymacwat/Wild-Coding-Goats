@@ -2,6 +2,8 @@ head, body {
   font-family: "Amatic SC";
   font-size: 1.75vw;
   text-align: center;
+  margin: 0px;
+  color:#9933ff
 }
 iframe {
   display: flex;
