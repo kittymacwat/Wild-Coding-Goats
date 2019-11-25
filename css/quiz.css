@@ -73,6 +73,7 @@ margin-top: 20px;
   text-align: center;
   text-decoration: none;
   border-radius: 100%;
+
 }
 
 .fa:hover {
@@ -90,11 +91,15 @@ margin-top: 20px;
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #FF0090;
   color: white;
 }
 
 .fa-youtube {
   background: red;
   color: white;
+}
+
+.social {
+  text-align: center;
 }
